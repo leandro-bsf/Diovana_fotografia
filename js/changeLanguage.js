@@ -2,7 +2,7 @@ import i18Obj from './translation.js'
 
 const languageSwitcher = document.querySelector('.language-switcher')
 const switcherEnglish = document.querySelector('.language-switcher_en')
-const switcherRussian = document.querySelector('.language-switcher_ru')
+const switcherRussian = document.querySelector('.language-switcher_br')
 const switchersArr = [switcherEnglish, switcherRussian]
 const defaultLanguage = 'en'
 const currentLanguage = localStorage.getItem('language') !== null ?

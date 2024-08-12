@@ -38,7 +38,7 @@ function switchPortfolioGallery() {
 
   function showGallery(season) {
     portfolioImagesArr.forEach((img, index) => {
-      img.src = `./assets/img/${season}/${index + 1}.png  `
+      img.src = `./assets/img/${season}/${index + 1}.webp  `
     })
   }
 
