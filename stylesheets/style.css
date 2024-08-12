@@ -907,7 +907,7 @@ figure {
   border-top: 5.63rem solid transparent;
   width: 100%;
   height: 1000px;
-  background: url(../assets/img/dark-theme/hero-main-photo.jpg) 50% 0 no-repeat;
+  background: url(../assets/img/dark-theme/1.png) 50% 0 no-repeat;
 }
 @media (max-width: 768px) {
   .container-hero {

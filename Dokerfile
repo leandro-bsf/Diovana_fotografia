@@ -1,0 +1,14 @@
+# Usa uma imagem base leve do NGINX
+FROM nginx:alpine
+
+# Remove o conteúdo padrão do NGINX para evitar conflitos
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copia o conteúdo do seu site (HTML, CSS, JS) para o diretório de conteúdo do NGINX
+COPY . /usr/share/nginx/html
+
+# Exponha a porta 80 para o NGINX servir o conteúdo
+EXPOSE 80
+
+# Comando padrão para iniciar o NGINX em modo foreground
+CMD ["nginx", "-g", "daemon off;"]
