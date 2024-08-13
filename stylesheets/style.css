@@ -912,7 +912,7 @@ figure {
 @media (max-width: 768px) {
   .container-hero {
     height: 680px;
-    background: url(../assets/img/dark-theme/hero-main-photo-media-small.jpg) 50% 0 no-repeat;
+    background: url(../assets/img/dark-theme/1.png) 50% 0 no-repeat;
   }
 }
 @media (max-width: 480px) {
@@ -929,11 +929,11 @@ figure {
 }
 
 .container-hero-light {
-  background-image: url(../assets/img/light-theme/hero-main-photo-light.jpg);
+  background-image: url(../assets/img/light-theme/2.png);
 }
 @media (max-width: 768px) {
   .container-hero-light {
-    background-image: url(../assets/img/light-theme/hero-main-photo-media-small-light.jpg);
+    background-image: url(../assets/img/light-theme/2.png);
   }
 }
 
@@ -1414,11 +1414,11 @@ figure {
 
 .contacts {
   width: 100%;
-  height: 43.75rem;
+  height: 55.75rem;
   margin: 0 auto;
-  padding-top: 3.75rem;
+  padding-top: 5.75rem;
   padding-right: 1.25rem;
-  background: url(../assets/img/dark-theme/hero-additional-photo.jpg) 50% 50% no-repeat;
+  background: url(../assets/img/dark-theme/form.png) 50% 50% no-repeat;
   background-size: auto 700px;
 }
 @media (max-width: 768px) {
@@ -1435,7 +1435,7 @@ figure {
 }
 
 .contacts-light {
-  background-image: url(../assets/img/light-theme/hero-additional-photo-light.jpg);
+  background-image: url(../assets/img/light-theme/form.png);
 }
 
 .container-contacts {
@@ -1542,7 +1542,7 @@ figure {
 }
 
 .copyright {
-  width: 188px;
+  width: 248px;
   padding-right: 20px;
 }
 .copyright > small {
@@ -1550,9 +1550,9 @@ figure {
 }
 @media (max-width: 768px) {
   .copyright {
-    width: 170px;
+    width: 220px;
     padding: 0;
-    margin: 1.7rem auto 0;
+    margin: 20.7rem auto 0;
   }
 }
 
