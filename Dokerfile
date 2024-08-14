@@ -8,7 +8,7 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY . /usr/share/nginx/html
 
 # Exponha a porta 80 para o NGINX servir o conteúdo
-EXPOSE 80
+EXPOSE 8080
 
 # Comando padrão para iniciar o NGINX em modo foreground
 CMD ["nginx", "-g", "daemon off;"]
