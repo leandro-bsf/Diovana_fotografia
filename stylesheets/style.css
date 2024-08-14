@@ -894,11 +894,14 @@ figure {
 
 .main {
   margin: 0 auto;
+
 }
 
 .hero {
   display: flex;
+  background-color: black;
   justify-content: start;
+
   align-items: center;
 }
 
